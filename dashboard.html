@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge"> 
+    <meta name="viewport" 
+          content="width=device-width,  
+                   initial-scale=1.0"> 
+    <title>Academic Consultation</title> 
+    <!-- Linking Poppins font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Apply Poppins font to the entire document */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        /* Use Poppins font for the header specifically */
+        .header p {
+            font-family: 'Poppins', sans-serif;
+        }
+        /* Style for the navigation links */
+        .nav-upper-options ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .nav-upper-options li {
+            margin-bottom: 10px;
+        }
+        .nav-upper-options a {
+            text-decoration: none;
+            color: #000;
+            display: flex;
+            align-items: center;
+        }
+        .nav-upper-options a .icon {
+            margin-right: 10px;
+        }
+        /* Increase font size for specific links */
+        .nav-upper-options a.dashboard {
+            font-size: 20px; /* Adjust font size as needed */
+        }
+        .nav-upper-options a.schedule {
+            font-size: 20px; /* Adjust font size as needed */
+        }
+        .nav-upper-options a.profile {
+            font-size: 20px; /* Adjust font size as needed */
+        }
+    </style>
+    <link rel="stylesheet" href="dashboard.css"> 
+</head> 
+  
+<body> 
+    
+    <!-- para sa header lang  -->
+    <header>  
+        <div class="logosec">               
+            <div class="header"> 
+                <p>Academic Consultation</p>               
+            </div>
+        </div>
+    </header>  
+    <div class="main-container"> 
+        <div class="navcontainer"> 
+            <nav class="nav"> 
+                <div class="nav-upper-options"> 
+                    <ul>
+                        <li><a href="dashboard.html" class="dashboard"><i class="fas fa-tachometer-alt icon"></i>Dashboard</a></li>
+                        <li><a href="schedule.html" class="schedule"><i class="fas fa-calendar-alt icon"></i>Schedule</a></li>
+                        <li><a href="profile.html" class="profile"><i class="fas fa-user icon"></i>Profile</a></li>
+                    </ul>
+                </div> 
+            </nav> 
+        </div> 
+        <div class="main"> 
+            <!-- Your main content goes here -->
+        </div> 
+    </div> 
+
+    <!-- Logout link -->
+    <div class="logout">
+        <a href="#" class="logout-link">Logout</a>
+    </div>
+  
+</body> 
+</html>
