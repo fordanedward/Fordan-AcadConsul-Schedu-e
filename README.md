@@ -1,2 +1,2 @@
-# Fordan-AcadConsul-Schedu-e
-yung sa schedule po ako
+# Fordan-AcadConsult-Schedule-Updated
+isang ganito ule kung sakaling palpak
